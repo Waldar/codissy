@@ -1,3 +1,3 @@
-# codissy
-Waldar's take on Codissy<br>
-https://www.codissy.com
+# Codyssi
+Waldar's take on Codyssi<br>
+https://www.codyssi.com
