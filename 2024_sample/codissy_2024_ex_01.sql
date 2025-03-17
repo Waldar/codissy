@@ -2,7 +2,7 @@ with cte_data (id, value) as
 (
 select monotonically_increasing_id()
      , value::int
---from read_files('/Volumes/waldar/fabien/codyssi2024/codyssi2024_01.txt', format => 'text')
+--from read_files('/Volumes/waldar/fabien/codyssi/2024_sample/codyssi_2024_01.txt', format => 'text')
   from values ('912372')
             , ('283723')
             , ('294281')
