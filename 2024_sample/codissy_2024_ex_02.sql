@@ -2,7 +2,7 @@ with cte_data (id, value) as
 (
 select row_number() over W - 1
      , value::boolean
---from read_files('/Volumes/waldar/fabien/codyssi2024/codyssi2024_02.txt', format => 'text')
+--from read_files('/Volumes/waldar/fabien/codyssi/2024_sample/codyssi_2024_02.txt', format => 'text')
   from values ('TRUE' )
             , ('FALSE')
             , ('TRUE' )
